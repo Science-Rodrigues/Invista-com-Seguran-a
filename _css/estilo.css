@@ -1,12 +1,43 @@
 @charset "UTF-8";
 
 body {
-       background-color: antiquewhite;
+       margin: 20px;
+       background-color: rgb(145, 145, 117);
+       text-align: justify;
 }
 
+
+div#interface {
+       width: 1100px;
+       background-color: #ffffff;
+       margin: -20px auto 0px auto;  /* sequencia das margens: cima, direita, baixo, esquerda*/
+       box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+       padding: 10px; /* quando todas as mergens for igual delimita apenas um valor*/
+}
+
+
 header {
-         padding: 20px;
-         background-color: aliceblue;           
+      background-image: url(../_img/inves_cabeçalho.jpg);
+      opacity: 0.7;
+}
+
+hgroup {
+
+       padding: 50px;
+       position: relative;
+       color: rgb(250, 245, 245);
+       border-bottom: 1px #333131 solid;
+       height: 150px; 
+       text-align: center; 
+       /* background-color: rgb(88, 78, 78) */
+}
+
+
+
+figure.foto-cabecalho img {
+       position: absolute;
+       max-width: 700px;
+       opacity: 0.5;
 }
 
 h1 {
